@@ -1,0 +1,57 @@
+
+brand-list
+-----------------
+
+
+=========================
+   Display Brands
+==========================
+URL :- http://localhost:3000/brands
+
+Method : GET
+
+Response :- return all brand list
+
+-----
+ or
+------
+
+brandList :any = [
+   {
+    brandName:"MARUTI",
+    logo : "https://d2h44aw7l5xdvz.cloudfront.net/assets/icons/Maruti_Suzuki_n.png"
+   },
+   {
+    brandName : "Hyundai",
+    logo : "https://d2h44aw7l5xdvz.cloudfront.net/assets/icons/Hyundai_n.png"
+   }
+]
+
+
+
+================================
+    Display Model List
+==================================
+URL :-
+http://localhost:3000/brands?brandName=TATA
+
+Method : GET
+
+Response: 	It will return model list
+
+
+
+
+
+============================
+   Display Variant List
+==============================
+
+URL :-
+http://localhost:3000/get-variant?modelName=TATA NEXON
+
+METHOD : GET
+
+Response :- 
+
+
