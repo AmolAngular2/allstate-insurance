@@ -1,0 +1,16 @@
+<div class="container">
+    <!-- <h6>Select Brand</h6> -->
+    <div class="row">
+        <div class="mb-3">
+            <label for="id1" class="form-label fw-bold">Search Brand</label>
+            <input type="text" class="form-control" id="id1">
+        </div>
+    </div>
+    <ul class="list-group">
+        <li class="list-group-item cursor" *ngFor="let item of brandList" (click)="navigateTo(item.brandName)"><img [src]="item.logo" height="20" width="20">  <span class="ms-1">{{item.brandName}}</span></li>
+      
+    </ul>
+</div>
+
+
+<!-- <button class="btn btn-success" routerLink="/car-insurance/select-model">Model</button> -->
